@@ -60,8 +60,8 @@ Psychosis
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
-
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Notes]
+- (https://github.com/erenboran/Crew81/blob/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/DailyScrumNotesSprint1.docx)
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://raw.githubusercontent.com/erenboran/Crew81/7bcb284d8035b2436c8a98f4c92b4eb3407f6605/ProjectManagement/Sprint1/Backlog1.png)
 ![Backlog 2](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Backlog2.png)
@@ -71,14 +71,14 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog 6](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Backlog6.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1]
-  ![Screenshot 2]
-  ![Screenshot 3] 
-  ![Screenshot 4]
-  ![Screenshot 5]
-  ![Screenshot 6]
-  ![Screenshot 7]
-  ![Screenshot 8]
+  ![Screenshot 1](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Products1.gif)
+  ![Screenshot 2](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Products2.gif)
+  ![Screenshot 3](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Products3RoomDesignDraft.jpg)
+  ![Screenshot 4](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Products4LowPolyRoomDesign.jpg)
+  ![Screenshot 5](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Products5.png)
+  ![Screenshot 6](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Products6.png)
+  ![Screenshot 7](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/Products7.png)
+  ![Screenshot 8](https://raw.githubusercontent.com/erenboran/Crew81/85da23e28c9eac6285e119b30d1e0067023c74ed/ProjectManagement/Sprint1/fbd92336-9d3b-428c-b0a0-673628e55323.jpg)
 
 - **Sprint Review**: 
 Alınan kararlar: Hikayenin final bölümünün değiştirilmesine karar verilmiştir.
