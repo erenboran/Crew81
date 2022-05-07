@@ -8,7 +8,7 @@ Crew 81
 - Çağlar Paksoy: Product Owner / Game Artist
 - Zeren Sezgin: Scrum Master / Game Artist
 - Simge Söylemez: Team Member / Game Artist 
-- Batuhan Özender: Team Member/ Developer
+- Batuhan Özender: Team Member / Developer
 - Eren Boran: Team Member / Developer
 
 ## Ürün İsmi
