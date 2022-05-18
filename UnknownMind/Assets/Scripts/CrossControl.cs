@@ -6,6 +6,8 @@ public class CrossControl : MonoBehaviour
 {
     public Image Cross;
     public float Range;
+    public Camera fpsCam;
+    public DoorControl DoorScript;
 
     void Update()
     {
@@ -13,15 +15,46 @@ public class CrossControl : MonoBehaviour
         RaycastHit hit;
         Cross.color = Color.red;
 
-
-        if (Physics.Raycast(transform.position, forwardX, out hit))
+       // if (Physics.Raycast(fpsCam.transform.position, forwardX, out hit, Range))
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit,Range))
         {
+            Debug.DrawLine(transform.position, hit.point, Color.red);
             if (hit.distance <= Range && hit.collider.gameObject.tag == "Props")
             {
                 Cross.color = Color.white;
                 if (Input.GetMouseButton(0))
+
+
                 {
-                    Destroy(hit.collider.gameObject);
+
+                    //Debug.Log("asdfd");
+                    Debug.Log(hit.transform.name);
+                    var KeyScript = hit.transform.GetComponent<Key>();
+                    if (KeyScript != null)
+                    {
+                        KeyScript.Unlock();
+                        Destroy(hit.transform.gameObject);  
+
+                    }
+                    if (hit.transform.GetComponentsInChildren<DoorControl>().Length >=1)
+
+                        
+                    {
+                        Debug.Log("deneme");
+                        DoorScript = hit.transform.GetComponentsInChildren<DoorControl>()[0]; }
+                    if (DoorScript != null)
+                    {
+                        if (!DoorScript.isOpen)
+                        {
+                            DoorScript.Open();
+                            Debug.Log("asdf");
+
+                        }
+                        else
+                        {
+                            DoorScript.Close();
+                        }
+                    }
                 }
             }
         }
