@@ -99,6 +99,10 @@ Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez,
 # Sprint 2
 **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. 
 
+## Product Backlog URL
+
+[Miro Backlog Board] https://miro.com/app/board/uXjVO2lWh_0=/?share_link_id=72193419767
+
 - **Sprint içinde tamamlanması tahmin edilen puan**: 75 Puan
 
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. Toplamda 300 puanlık bir backlog tahminimiz var. 4 sprint'e bölündüğünde ilk sprint'in en azından 75 ile başlaması gerektiğine karar verildi.
