@@ -128,6 +128,17 @@ Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez,
   - Tasarım sürecine ayrılan zaman azaltılıp, yazılım sürecine odaklanılması gerektiğine karar verilmiştir.
   - Unit test'ler için ayrılan efor/saat arttırılmalı. 
 
+ **Sprint Review**: 
+Alınan kararlar: Map değiştirildi.
+Evin odaları çoğaltıldı. Boş odaların içine puzzle yerleştirme fikri yerine mutfak ve tuvalet gibi ev konseptine uygun oda tasarım fikirlerine karar verildi.
+Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
+
+- **Sprint Retrospective:**
+  - 
+  - 
+  - 
+  - Unit test'ler için ayrılan efor/saat arttırılmalı. 
+
 ---
 
 # Sprint 3
