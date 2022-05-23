@@ -128,12 +128,6 @@ Alınan kararlar: Hikayenin final bölümünün değiştirilmesine karar verilmi
 Çözülecek puzzle'ların ödüllerine karar verilmiştir.
 Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
 
-**Sprint Retrospective:**
-  - Hikayenin finalinin değiştirilmesine karar verilmiştir.
-  - Karar alma sürecinin uzatılmaması ya da alınan kararların değiştirilmesinin sürecimizi uzattığı konuşuldu.
-  - Tasarım sürecine ayrılan zaman azaltılıp, yazılım sürecine odaklanılması gerektiğine karar verilmiştir.
-  - Unit test'ler için ayrılan efor/saat arttırılmalı. 
-
  **Sprint Review**: 
 Alınan kararlar: Map değiştirildi.
 Evin odaları çoğaltıldı. Boş odaların içine puzzle yerleştirme fikri yerine mutfak ve tuvalet gibi ev konseptine 
