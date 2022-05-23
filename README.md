@@ -130,13 +130,15 @@ Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez,
 
  **Sprint Review**: 
 Alınan kararlar: Map değiştirildi.
-Evin odaları çoğaltıldı. Boş odaların içine puzzle yerleştirme fikri yerine mutfak ve tuvalet gibi ev konseptine uygun oda tasarım fikirlerine karar verildi.
+Evin odaları çoğaltıldı. Boş odaların içine puzzle yerleştirme fikri yerine mutfak ve tuvalet gibi ev konseptine 
+uygun oda tasarım fikirlerine karar verildi.
 Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
 
 - **Sprint Retrospective:**
-  - 
-  - 
-  - 
+  - Objelerin Collider'leri düzenlenmeli,
+  - Karakter kontrolü için bug fix yapılmalı,
+  - Daha akıcı animasyonlar yapılmalı,
+  - Karakterin tasarımı oyunun konsept ve itemlarıyla uyumlu olmalı
   - Unit test'ler için ayrılan efor/saat arttırılmalı. 
 
 ---
