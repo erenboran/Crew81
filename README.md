@@ -111,11 +111,17 @@ Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez,
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-**Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp ve üzerinden yapılmasına karar verilmiştir. Daha kapsamlı toplantılar Discord üzerinden yapılmıştır. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
+**Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp ve üzerinden yapılmasına karar verilmiştir. Daha kapsamlı toplantılar Discord üzerinden yapılmıştır. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: https://github.com/erenboran/Crew81/blob/main/ProjectManagement/Sprint2/DailyScrumNotes2.docx
 
 **Sprint board update**: Sprint board screenshotları: 
+![Screenshot 1] https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/ProductBacklog1.png
+![Screenshot 2] https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/ProductBacklog2.png
 
 - **Ürün Durumu**: Ekran görüntüleri:
+- ![Screenshot 1] https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product1.gif
+- ![Screenshot 2] https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product2.png
+- ![Screenshot 3] https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product3.png
+- ![Screenshot 4] https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product4.png
 
 **Sprint Review**: 
 Alınan kararlar: Hikayenin final bölümünün değiştirilmesine karar verilmiştir.
