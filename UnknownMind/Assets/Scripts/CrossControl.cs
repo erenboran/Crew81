@@ -36,12 +36,14 @@ public class CrossControl : MonoBehaviour
                         Destroy(hit.transform.gameObject);  
 
                     }
-                    if (hit.transform.GetComponentsInChildren<DoorControl>().Length >=1)
+                    //if (hit.transform.GetComponentsInChildren<DoorControl>().Length >=1)
 
                         
                     {
                         Debug.Log("deneme");
-                        DoorScript = hit.transform.GetComponentsInChildren<DoorControl>()[0]; }
+                        DoorScript = hit.transform.GetComponentInChildren<DoorControl>(); }
+
+                        //DoorScript = hit.transform.GetComponentsInChildren<DoorControl>() //()[0]; }
                     if (DoorScript != null)
                     {
                         if (!DoorScript.isOpen)
