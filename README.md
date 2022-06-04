@@ -97,7 +97,49 @@ Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez,
 ---
 
 # Sprint 2
+**Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. 
 
+## Product Backlog URL
+
+[Miro Backlog Board] https://miro.com/app/board/uXjVO2lWh_0=/?share_link_id=72193419767
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 75 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. Toplamda 300 puanlık bir backlog tahminimiz var. 4 sprint'e bölündüğünde ilk sprint'in en azından 75 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+**Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp ve üzerinden yapılmasına karar verilmiştir. Daha kapsamlı toplantılar Discord üzerinden yapılmıştır. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: https://github.com/erenboran/Crew81/blob/main/ProjectManagement/Sprint2/DailyScrumNotes2.docx
+
+**Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/ProductBacklog1.png)
+![Backlog 2](https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/ProductBacklog2.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+![Screenshot 1](https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product1.gif)
+![Screenshot 2](https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product2.png)
+![Screenshot 3](https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product3.png)
+![Screenshot 4](https://raw.githubusercontent.com/erenboran/Crew81/main/ProjectManagement/Sprint2/Product4.png)
+
+**Sprint Review**: 
+Alınan kararlar: Hikayenin final bölümünün değiştirilmesine karar verilmiştir.
+Çözülecek puzzle'ların ödüllerine karar verilmiştir.
+Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
+
+ **Sprint Review**: 
+Alınan kararlar: Map değiştirildi.
+Evin odaları çoğaltıldı. Boş odaların içine puzzle yerleştirme fikri yerine mutfak ve tuvalet gibi ev konseptine 
+uygun oda tasarım fikirlerine karar verildi.
+Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
+
+- **Sprint Retrospective:**
+  - Objelerin Collider'leri düzenlenmeli,
+  - Karakter kontrolü için bug fix yapılmalı,
+  - Daha akıcı animasyonlar yapılmalı,
+  - Karakterin tasarımı oyunun konsept ve itemlarıyla uyumlu olmalı
+  - Unit test'ler için ayrılan efor/saat arttırılmalı. 
 
 ---
 
