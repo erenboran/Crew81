@@ -9,7 +9,7 @@ public class CrossControl : MonoBehaviour
     public Camera fpsCam;
     public DoorControl DoorScript;
     public GameObject Ecza;
-    public GameObject Komo, Gamepad, drugs, DoorWhite;
+    public GameObject Komo, Gamepad, drugs, DoorWhite, DoorWhite1;
     public AudioClip keySound, doorSound, openingSound, drawerOpen, eczaCabinet, GamepadSound, DrugSound;
     public AudioSource audioSource1;
     public GameObject door;
@@ -17,7 +17,7 @@ public class CrossControl : MonoBehaviour
     {
         Vector3 forwardX = transform.TransformDirection(Vector3.forward);
         RaycastHit hit;
-        Cross.color = Color.red;
+        //Cross.color = Color.red;
 
         // if (Physics.Raycast(fpsCam.transform.position, forwardX, out hit, Range))
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, Range))
@@ -95,6 +95,8 @@ public class CrossControl : MonoBehaviour
                 Cross.color = Color.white;
                 if (Input.GetMouseButton(0))
                 {
+                    audioSource1.PlayOneShot(audioSource1.clip, 1);
+
                     audioSource1.clip = GamepadSound;
                     audioSource1.Play();
                     Gamepad.transform.gameObject.tag = "Untagged";
@@ -129,6 +131,18 @@ public class CrossControl : MonoBehaviour
                     audioSource1.clip = drawerOpen;
                     audioSource1.Play();
                     DoorWhite.transform.gameObject.tag = "Untagged";
+
+                }
+            }
+            if (hit.distance <= Range && hit.collider.gameObject.tag == "Door")
+            {
+                Cross.color = Color.white;
+                if (Input.GetMouseButton(0))
+                {
+                    DoorWhite1.GetComponent<Animator>().Play("Dooric");
+                    audioSource1.clip = drawerOpen;
+                    audioSource1.Play();
+                    DoorWhite1.transform.gameObject.tag = "Untagged";
 
                 }
             }

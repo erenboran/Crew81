@@ -12,6 +12,10 @@ TagManager:
   - Kome
   - Gamepad
   - Keypad
+  - Pill
+  - Drug
+  - Door
+  - Object
   layers:
   - Default
   - TransparentFX

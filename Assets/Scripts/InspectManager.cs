@@ -1,32 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using StarterAssets;
 
 public class InspectManager : MonoBehaviour
 {
+    public Image Cross;
     public float distance;
     public Transform playerSocket;
+    public GameObject crossImage;
 
     Vector3 originalPos;
     bool onInspect = false;
     GameObject inspected;
 
+
     public FirstPersonController playerScript;
 
     private void Update()
     {
+
         Vector3 ffwd = transform.TransformDirection(Vector3.forward);
         RaycastHit hit;
+        Cross.color = Color.red;
 
-        if(Physics.Raycast(transform.position, ffwd, out hit, distance))
+        if (Physics.Raycast(transform.position, ffwd, out hit, distance))
         {
-            if(hit.transform.CompareTag("Oject") && !onInspect)
+            Debug.DrawLine(transform.position, hit.point, Color.blue);
+            if (hit.transform.CompareTag("Object") && !onInspect)
             {
-                if(Input.GetKeyDown(KeyCode.Mouse0))
+                Cross.color = Color.yellow;
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     inspected = hit.transform.gameObject;
                     originalPos = hit.transform.position;
                     onInspect = true;
+                    crossImage.SetActive(false);
 
                     StartCoroutine(puckupItem());
                 }
@@ -48,6 +58,8 @@ public class InspectManager : MonoBehaviour
         {
             StartCoroutine(dropItem());
             onInspect = false;
+            crossImage.SetActive(true);
+
         }
     }
 
