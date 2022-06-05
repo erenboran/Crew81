@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 5455
+  controlID: 16733
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 5460
+  controlID: 16734
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 5461
+  controlID: 16735
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,9 +409,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.0822797, y: 3.0273583, z: 9.137265}
+    m_Target: {x: 10.731953, y: 1.0426772, z: -4.388639}
     speed: 2
-    m_Value: {x: -6.0822797, y: 3.0273583, z: 9.137265}
+    m_Value: {x: 10.731953, y: 1.0426772, z: -4.388639}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -458,20 +458,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.029888064, y: -0.27488467, z: 0.007872687, w: 0.961211}
+    m_Target: {x: -0.003847244, y: 0.7857419, z: 0.0034616005, w: 0.6189691}
     speed: 2
-    m_Value: {x: 0.02985769, y: -0.2777055, z: 0.0079605505, w: 0.96016914}
+    m_Value: {x: -0.003847244, y: 0.7857419, z: 0.0034616007, w: 0.6189691}
   m_Size:
-    m_Target: 1.0083137
+    m_Target: 1.2866936
     speed: 2
-    m_Value: 1.3083136
+    m_Value: 1.2866936
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.7015002
+    m_SpeedNormalized: 0.8500001
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -542,23 +542,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 188effff
-      m_LastClickedID: -29160
-      m_ExpandedIDs: 6afbffff444d00006c4d0000c24d0000164e0000f44e0000
+      m_SelectedIDs: f84e0000
+      m_LastClickedID: 20216
+      m_ExpandedIDs: f4f9ffff1cfbffff6afbffff364d0000744d0000204e0000ee4e0000fc4e0000024f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Avize (3)
-        m_OriginalName: Avize (3)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -20976
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -606,22 +606,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models
+    - Assets/Models/Salon
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models
+  - Assets/Models/Salon
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity\Github\Crew81\UnknownMind
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 1e530000
-    m_LastClickedID: 21278
-    m_ExpandedIDs: 00000000f4520000f6520000f8520000fa52000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 74530000
+    m_LastClickedID: 21364
+    m_ExpandedIDs: 00000000105300001253000014530000165300003653000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -649,7 +649,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4520000f6520000f8520000fa52000000ca9a3b
+    m_ExpandedIDs: 000000001053000012530000145300001653000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000924800009848000086720000564900006c49000000000000f6480000d44d0000b85700003c760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1244
+  m_LastSelectedObjectID: 20216
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
