@@ -7,6 +7,9 @@ TagManager:
   - jump
   - tableTag
   - Props
+  - CinemachineTarget
+  - Ecza
+  - Kome
   layers:
   - Default
   - TransparentFX
