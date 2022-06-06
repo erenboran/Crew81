@@ -17,6 +17,7 @@ TagManager:
   - Door
   - Object
   - Book
+  - Painting
   layers:
   - Default
   - TransparentFX
