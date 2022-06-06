@@ -31,7 +31,7 @@ Psychosis
 - Oyuncunun item'larla etkileşime geçmesi ve puzzle'larla oyunda ilerleme katetmesi,
 - Oynanışın; yürüme, item bulma ve puzzle çözme üzerine olması,
 - 3 farklı çizim türünü içerisinde barındırması; 3d, 2d ve Pixel Art,
-- 1. ve 2. Lvl’da FPS oynanış, 3. Lvl’ın final bölümünde TPS’ye geçiş,
+- FPS Oynanış,
 - Gerilim ögelerinin ışık ve müzik elementleriyle aktarılması
 
 ## Hedef Kitle
