@@ -39,6 +39,7 @@ public class InspectManager : MonoBehaviour
                 Cross.color = Color.yellow;
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
+                    objectText.text = hit.transform.GetComponent<ObjectController>().GetObjectInfo();
                     inspected = hit.transform.gameObject;
                     originalPos = hit.transform.position;
                     onInspect = true;
