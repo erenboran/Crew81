@@ -10,6 +10,8 @@ public class InspectManager : MonoBehaviour
     public float distance;
     public Transform playerSocket;
     public GameObject crossImage;
+    public GameObject inspectCanvas;
+    public Text objectText;
 
     Vector3 originalPos;
     bool onInspect = false;
@@ -18,6 +20,10 @@ public class InspectManager : MonoBehaviour
 
     public FirstPersonController playerScript;
 
+    private void Start()
+    {
+        inspectCanvas.SetActive(false);
+    }
     private void Update()
     {
 
@@ -37,6 +43,7 @@ public class InspectManager : MonoBehaviour
                     originalPos = hit.transform.position;
                     onInspect = true;
                     crossImage.SetActive(false);
+                    inspectCanvas.SetActive(true);
 
                     StartCoroutine(puckupItem());
                 }
@@ -59,6 +66,7 @@ public class InspectManager : MonoBehaviour
             StartCoroutine(dropItem());
             onInspect = false;
             crossImage.SetActive(true);
+            inspectCanvas.SetActive(false);
 
         }
     }
