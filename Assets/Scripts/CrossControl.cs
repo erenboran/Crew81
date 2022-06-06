@@ -9,7 +9,7 @@ public class CrossControl : MonoBehaviour
     public Camera fpsCam;
     public DoorControl DoorScript;
     public GameObject Ecza;
-    public GameObject Komo, Gamepad, drugs, DoorWhite, DoorWhite1;
+    public GameObject Komo, Gamepad, drugs, DoorWhite, DoorWhite1, Book;
     public AudioClip keySound, doorSound, openingSound, drawerOpen, eczaCabinet, GamepadSound, DrugSound;
     public AudioSource audioSource1;
     public GameObject door;
@@ -146,11 +146,29 @@ public class CrossControl : MonoBehaviour
 
                 }
             }
+            if (hit.distance <= Range && hit.collider.gameObject.tag == "Book")
+            {
+                Cross.color = Color.white;
+                if (Input.GetMouseButton(0))
+                {
+                    Book.GetComponent<Animator>().Play("bookAnim");
+                    audioSource1.clip = drawerOpen;
+                    audioSource1.Play();
+                    StartCoroutine(bookWait());
+
+                }
+            }
             IEnumerator doorsong()
             {
                 audioSource1.clip = doorSound;
                 audioSource1.PlayDelayed(0.2f);
                 yield return new WaitForSeconds(2);
+
+            }
+            IEnumerator bookWait()
+            {
+                yield return new WaitForSeconds(1);
+                Destroy(Book);
 
             }
 

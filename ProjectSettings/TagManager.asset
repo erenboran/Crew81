@@ -16,6 +16,7 @@ TagManager:
   - Drug
   - Door
   - Object
+  - Book
   layers:
   - Default
   - TransparentFX
