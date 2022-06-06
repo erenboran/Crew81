@@ -15,6 +15,7 @@ public class InspectManager : MonoBehaviour
 
     Vector3 originalPos;
     bool onInspect = false;
+    bool onPaintingInspect= false;
     GameObject inspected;
 
 
@@ -47,6 +48,14 @@ public class InspectManager : MonoBehaviour
                     inspectCanvas.SetActive(true);
 
                     StartCoroutine(puckupItem());
+                }
+            }
+            if(hit.transform.CompareTag("Painting") && !onPaintingInspect)
+            {
+                Cross.color = Color.yellow;
+                if(Input.GetKeyDown(KeyCode.Mouse0)){
+                    objectText.text = hit.transform.GetComponent<ObjectController>().GetObjectInfo();
+                    StartCoroutine(PaintingWait());
                 }
             }
         }
@@ -84,5 +93,14 @@ public class InspectManager : MonoBehaviour
         inspected.transform.rotation = Quaternion.identity;
         yield return new WaitForSeconds(0.2f);
         playerScript.enabled = true;
+    }
+
+    IEnumerator PaintingWait()
+    {
+        onPaintingInspect = true;
+        inspectCanvas.SetActive(true);
+        yield return new WaitForSeconds(5.0f);
+        inspectCanvas.SetActive(false);
+        onPaintingInspect = false;
     }
 }
