@@ -101,7 +101,7 @@ Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez,
 
 ## Product Backlog URL
 
-[Miro Backlog Board] https://miro.com/app/board/uXjVO2lWh_0=/?share_link_id=72193419767
+[Miro Backlog Board] https://miro.com/app/board/uXjVO2lWh_0=/
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 75 Puan
 
