@@ -17,6 +17,9 @@ public class CrossControl : MonoBehaviour
     public GameObject door;
     public FirstPersonController playerScript;
 
+    private void Start() {
+        Cursor.visible = false;
+    }
     void Update()
     {
         Vector3 forwardX = transform.TransformDirection(Vector3.forward);
@@ -170,6 +173,7 @@ public class CrossControl : MonoBehaviour
                     AsyKapi.GetComponent<Animator>().Play("doorlevel3");
                     audioSource1.clip = DoorOpenAsy;
                     audioSource1.Play();
+                    AsyKapi.transform.gameObject.tag = "Untagged";
 
                 }
             }
