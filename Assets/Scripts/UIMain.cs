@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class UIMain : MonoBehaviour
 {
+    [Header("Volume")]
+    public AudioMixer audioMixer;
+
     [Header("UIPages")]
     public GameObject settingsScreen;
     public GameObject mainScreen;
-    public GameObject audioScreen;
-    public GameObject graphicsScreen;
     public void StartGame()
     {
         SceneManager.LoadScene("Playground");
@@ -24,13 +26,21 @@ public class UIMain : MonoBehaviour
     public void BackToMain()
     {
         settingsScreen.SetActive(false);
-        audioScreen.SetActive(false);
-        graphicsScreen.SetActive(false);
         mainScreen.SetActive(true);
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("mainVolume", volume);
+    }
+
+    public void SetFullScreen(bool isFullScreen)
+    {
+        Screen.fullScreen = isFullScreen;
     }
 }
