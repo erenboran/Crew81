@@ -23,7 +23,7 @@ public class InspectManager : MonoBehaviour
 
         Vector3 ffwd = transform.TransformDirection(Vector3.forward);
         RaycastHit hit;
-        Cross.color = Color.red;
+        //Cross.color = Color.red;
 
         if (Physics.Raycast(transform.position, ffwd, out hit, distance))
         {

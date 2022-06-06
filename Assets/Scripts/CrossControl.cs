@@ -17,7 +17,7 @@ public class CrossControl : MonoBehaviour
     {
         Vector3 forwardX = transform.TransformDirection(Vector3.forward);
         RaycastHit hit;
-        //Cross.color = Color.red;
+        Cross.color = Color.red;
 
         // if (Physics.Raycast(fpsCam.transform.position, forwardX, out hit, Range))
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, Range))

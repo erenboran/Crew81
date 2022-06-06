@@ -10,8 +10,17 @@ public class LevelDoor : MonoBehaviour
     
     void Start()
     {
+        isOpen = false;
         isLocked = true;
     }
+    void Update()
+    {
+        if(!isLocked && !isOpen)
+        {
+            transform.GetComponent<Animator>().Play("DoorLast");
+        }
 
+        
+    }
 
 }
