@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using StarterAssets;
 public class CrossControl : MonoBehaviour
 {
     public Image Cross;
@@ -9,10 +11,12 @@ public class CrossControl : MonoBehaviour
     public Camera fpsCam;
     public DoorControl DoorScript;
     public GameObject Ecza;
-    public GameObject Komo, Gamepad, drugs, DoorWhite, DoorWhite1, Book, AsyKapi;
+    public GameObject Komo, Gamepad, drugs, DoorWhite, DoorWhite1, Book, AsyKapi, Yatak , gameOver;
     public AudioClip keySound, doorSound, openingSound, drawerOpen, eczaCabinet, GamepadSound, DrugSound, DoorOpenAsy;
     public AudioSource audioSource1;
     public GameObject door;
+    public FirstPersonController playerScript;
+
     void Update()
     {
         Vector3 forwardX = transform.TransformDirection(Vector3.forward);
@@ -166,7 +170,16 @@ public class CrossControl : MonoBehaviour
                     AsyKapi.GetComponent<Animator>().Play("doorlevel3");
                     audioSource1.clip = DoorOpenAsy;
                     audioSource1.Play();
-                    //StartCoroutine(bookWait());
+
+                }
+            }
+            if (hit.distance <= Range && hit.collider.gameObject.tag == "Yatak")
+            {
+                Cross.color = Color.white;
+                if (Input.GetMouseButton(0))
+                {
+                    gameOver.SetActive(true);
+                    playerScript.enabled = false;
 
                 }
             }

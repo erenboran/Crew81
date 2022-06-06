@@ -19,6 +19,7 @@ TagManager:
   - Book
   - Painting
   - AkilKapi
+  - Yatak
   layers:
   - Default
   - TransparentFX

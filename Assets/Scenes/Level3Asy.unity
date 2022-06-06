@@ -708,6 +708,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!224 &303566535 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3864231697635482905, guid: e1b5a4ce00aeaff449d335119ee6db61, type: 3}
+  m_PrefabInstance: {fileID: 1584604286}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &352408276 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 05a36724385d9ba42bf6a555151e2e82, type: 3}
@@ -1662,6 +1667,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 193a074806a54b34c92fb536b3dc7a70, type: 3}
       propertyPath: m_Name
       value: Yatak (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 193a074806a54b34c92fb536b3dc7a70, type: 3}
+      propertyPath: m_TagString
+      value: Yatak
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 193a074806a54b34c92fb536b3dc7a70, type: 3}
@@ -3456,6 +3465,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1763523088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1763523091}
+  - component: {fileID: 1763523090}
+  - component: {fileID: 1763523089}
+  m_Layer: 5
+  m_Name: GameOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1763523089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763523088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8784314}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 42fa2ad3c3d5fe440bb09aded92f65f6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1763523090
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763523088}
+  m_CullTransparentMesh: 1
+--- !u!224 &1763523091
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763523088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 303566535}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1765998641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4441,6 +4525,8 @@ MonoBehaviour:
   DoorWhite1: {fileID: 0}
   Book: {fileID: 0}
   AsyKapi: {fileID: 275988835}
+  Yatak: {fileID: 727240949}
+  gameOver: {fileID: 1763523088}
   keySound: {fileID: 8300000, guid: f3993022df92f8742933ea332d4a69cb, type: 3}
   doorSound: {fileID: 8300000, guid: 3e38a8c27aca0f04fbb7705d64ad10fe, type: 3}
   openingSound: {fileID: 8300000, guid: 169dfe2c58a305b4a94efaf6e1df6470, type: 3}
@@ -4451,6 +4537,7 @@ MonoBehaviour:
   DoorOpenAsy: {fileID: 8300000, guid: b129cdc6504c8834ca27d6cd2bdf7083, type: 3}
   audioSource1: {fileID: 275988838}
   door: {fileID: 0}
+  playerScript: {fileID: 4416926083347132228}
 --- !u!4 &6895380437520759116
 Transform:
   m_ObjectHideFlags: 0
