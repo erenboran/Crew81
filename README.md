@@ -176,22 +176,15 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Screenshot 4]
 
 **Sprint Review**: 
-Alınan kararlar: Hikayenin final bölümünün değiştirilmesine karar verilmiştir.
-Çözülecek puzzle'ların ödüllerine karar verilmiştir.
-Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
+Alınan kararlar: 
+- 3. lvl'da TPS karakter görünümünü iptal ettik.
+- Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
 
- **Sprint Review**: 
-Alınan kararlar: Map değiştirildi.
-Evin odaları çoğaltıldı. Boş odaların içine puzzle yerleştirme fikri yerine mutfak ve tuvalet gibi ev konseptine 
-uygun oda tasarım fikirlerine karar verildi.
-Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez, Eren Boran, Batuhan Özender 
 
 - **Sprint Retrospective:**
-  - Objelerin Collider'leri düzenlenmeli,
-  - Karakter kontrolü için bug fix yapılmalı,
-  - Daha akıcı animasyonlar yapılmalı,
-  - Karakterin tasarımı oyunun konsept ve itemlarıyla uyumlu olmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı. 
+- İleriki projelerimizde aldığımız kararları ve yeni fikirlerin unutulmaması için toplantıları sıcağı sıcağına kaydetmek gerektiğini düşündük.
+- Puzzle mekanikleri için yeterli zamanı ayıramamak.
+- Gdd maddelerinin bazılarını minimal bir hale getirmemiz gerekiyordu.
 
 
 ---
