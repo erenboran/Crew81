@@ -9,8 +9,8 @@ public class CrossControl : MonoBehaviour
     public Camera fpsCam;
     public DoorControl DoorScript;
     public GameObject Ecza;
-    public GameObject Komo, Gamepad, drugs, DoorWhite, DoorWhite1, Book;
-    public AudioClip keySound, doorSound, openingSound, drawerOpen, eczaCabinet, GamepadSound, DrugSound;
+    public GameObject Komo, Gamepad, drugs, DoorWhite, DoorWhite1, Book, AsyKapi;
+    public AudioClip keySound, doorSound, openingSound, drawerOpen, eczaCabinet, GamepadSound, DrugSound, DoorOpenAsy;
     public AudioSource audioSource1;
     public GameObject door;
     void Update()
@@ -155,6 +155,18 @@ public class CrossControl : MonoBehaviour
                     audioSource1.clip = drawerOpen;
                     audioSource1.Play();
                     StartCoroutine(bookWait());
+
+                }
+            }
+            if (hit.distance <= Range && hit.collider.gameObject.tag == "AkilKapi")
+            {
+                Cross.color = Color.white;
+                if (Input.GetMouseButton(0))
+                {
+                    AsyKapi.GetComponent<Animator>().Play("doorlevel3");
+                    audioSource1.clip = DoorOpenAsy;
+                    audioSource1.Play();
+                    //StartCoroutine(bookWait());
 
                 }
             }
