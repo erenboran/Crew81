@@ -11,6 +11,12 @@ Crew 81
 - Batuhan Özender: Team Member / Developer
 - Eren Boran: Team Member / Developer
 
+## NOTLAR
+
+- Oyundaki 3d modeller (Simge Söylemez)
+- Pixel çizimler ve gifler (Çağlar Paksoy)
+- 2d illüstrasyonlar (Feride Zeren Sezgin) gibi görsel assetlerin hepsi tarafımızca elle çizilmiştir. Görsel assetlerde hazır asset kullanılmamıştır. 
+
 ## Ürün İsmi
 
 Psychosis
