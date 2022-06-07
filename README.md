@@ -6,8 +6,8 @@ Crew 81
 ## Takım Elemanları
 
 - Çağlar Paksoy: Product Owner / Pixel Game Artist
-- Zeren Sezgin: Scrum Master / 2d Game Artist
-- Simge Söylemez: Team Member / 3d Game Artist 
+- Zeren Sezgin: Scrum Master / 2D Game Artist
+- Simge Söylemez: Team Member / 3D Game Artist 
 - Batuhan Özender: Team Member / Developer
 - Eren Boran: Team Member / Developer
 
