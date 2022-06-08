@@ -15,7 +15,32 @@ Crew 81
 
 - Oyundaki 3d modeller (Simge Söylemez)
 - Pixel çizimler ve gifler (Çağlar Paksoy)
-- 2d illüstrasyonlar (Feride Zeren Sezgin) gibi görsel assetlerin hepsi tarafımızca elle çizilmiştir. Görsel assetlerde hazır asset kullanılmamıştır. 
+- 2d illüstrasyonlar (Feride Zeren Sezgin) gibi görsel assetlerin hepsi tarafımızca elle çizilmiştir. Görsel assetlerde hazır asset kullanılmamıştır.
+
+## OYNANIŞA DAİR BİLGİLER
+
+1. Level: Burada karakter başlangıç odasından çıkmak için iki tane nesneyle etkileşime girmeli, bu nesneler tuvalette yer alıyor. 
+1. Nesne, tuvaletin üstünde yer alan anahtar bu odadan çıkışımız için gerekli. 
+2. Nesne  duvardaki ecza dolabının içerisinde yer alan ilaç şişesi bu karakterimizin ikinci ve üçüncü leveldaki ruhsal durumuna geçişini temsil ediyor.
+
+İlk bölümde yer alan puzzlelar: 
+Birinci sayımız çalışma odasında yer alan kitaplıktaki görselde bulunuyor.
+İkinci sayımız mutfakta yer alan bardağın içerisinde bulunuyor.
+Üçüncü sayımız salonda yer alan piyanonun üstünde bulunuyor. 
+Tüm bu nesnelerle etkileşime geçtiğimizde “278” sayısı bizim birinci levalda yer alan ana kapıdan çıkmamızı sağlıyor.
+
+2- Level: Burada karakter ana başlangıç odasına geri döner ve çıkmak için tuvaletteki anahtarı bulmalıdır. Anahtar, tuvaletteki ecza dolabı içinde yer alıyor.
+İkinci bölümde yer alan bulmacalar: 
+Burada oyuncu puzzleları çözmek için çıkış kapısına gitmeli. Kapının yanında yer alan konsolun üstünde butonlar var. Her birinde puzzlelara dahil metinler yer alıyor. Bunlar; damla ikonu, dört tane noktalı ikon ve saat ikonu olan butonlardır.
+Bu butonlar bizi puzzleları çözmek için çalışma odasına yönlendiriyor. 
+Damla İkonu: Kan damlayan tabloda damlaları saymamız gerekiyor, burada 3 tane damla yer alıyor. 
+Dört Noktalı İkon: Yüzlerin olduğu tabloda yüzleri incelememiz gerekiyor, burada 4 tane yüz yer alıyor.
+Saat İkonu: Üstünde kadın çizimi olan tabloda saati incelememiz gerekiyor, burada sayımız 8 yer alıyor.
+Tüm bu tablolarla etkileşime geçtiğimizde “348” sayısı bizim ikinci leveldaki kapıdan çıkmamızı sağlıyor.
+
+3-    Level: Burada karakterimiz asıl gerçekliğine geri döner, ana amacımız odasına geri dönmesini sağlamaktır. 
+Koridorun sonundaki oda bizim buradaki ana mekanımız ve buradaki görevimiz yatağın üzerindeki çizimlerle etkileşime geçerek karakterin varoluşsal sorgulamasını aydınlatarak oyunu bitirmesidir.
+
 
 ## Ürün İsmi
 
