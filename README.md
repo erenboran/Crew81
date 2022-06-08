@@ -129,7 +129,8 @@ Sprint Review katılımcıları: Zeren Sezgin, Çağlar Paksoy, Simge Söylemez,
   - Unit test'ler için ayrılan efor/saat arttırılmalı. 
 
 -**Diğer Notlar**:
-- N/A
+https://github.com/erenboran/Crew81/blob/main/SES_DOSYALARI_KAYNAK%20(1).docx
+https://github.com/erenboran/Crew81/blob/main/Psychosis_High_Concept_Document%20(2).docx
 
 ---
 
