@@ -20,8 +20,8 @@ Crew 81
 ## OYNANIŞA DAİR BİLGİLER
 
 1. Level: Burada karakter başlangıç odasından çıkmak için iki tane nesneyle etkileşime girmeli, bu nesneler tuvalette yer alıyor. 
-1. Nesne, tuvaletin üstünde yer alan anahtar bu odadan çıkışımız için gerekli. 
-2. Nesne  duvardaki ecza dolabının içerisinde yer alan ilaç şişesi bu karakterimizin ikinci ve üçüncü leveldaki ruhsal durumuna geçişini temsil ediyor.
+Birinci nesne, tuvaletin üstünde yer alan anahtar bu odadan çıkışımız için gerekli. 
+İkinci nesne  duvardaki ecza dolabının içerisinde yer alan ilaç şişesi bu karakterimizin ikinci ve üçüncü leveldaki ruhsal durumuna geçişini temsil ediyor.
 
 İlk bölümde yer alan puzzlelar: 
 Birinci sayımız çalışma odasında yer alan kitaplıktaki görselde bulunuyor.
