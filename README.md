@@ -39,6 +39,12 @@ Psychosis
 - 3 farklı çizim türünü içerisinde barındırması; 3d, 2d ve Pixel Art,
 - FPS Oynanış,
 - Gerilim ögelerinin ışık ve müzik elementleriyle aktarılması
+- OYNANIŞ: 
+  W,A,S,D: Yürüme ve Yön Tuşları
+  Sol Mouse Tuşu: Eşyaları seçmek, toplamak, incelemek
+  Sağ Mouse Tuşu: Eşyaları bırakmak
+  Alt + F4: Oyundan çıkış 
+
 
 ## Hedef Kitle
 
